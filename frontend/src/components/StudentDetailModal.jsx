@@ -107,7 +107,7 @@ const StudentDetailModal = ({ isOpen, onClose, student, onDeleteSuccess }) => {
     };
 
     return createPortal(
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm transition-opacity">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm transition-opacity">
             <div className="bg-white rounded-xl shadow-2xl w-full max-w-lg overflow-hidden transform transition-all scale-100">
                 {/* Header */}
                 <div className="bg-[#1e3a8a] px-6 py-5 flex justify-between items-start text-white relative overflow-hidden">

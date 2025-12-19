@@ -348,7 +348,7 @@ const StudentPage = () => {
             <StudentModal
                 isOpen={isModalOpen}
                 onClose={() => setIsModalOpen(false)}
-                onSuccess={handleDataUpdate}
+                onSave={handleDataUpdate}
             />
 
             <StudentDetailModal
