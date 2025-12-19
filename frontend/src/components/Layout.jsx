@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
     ];
 
     return (
-        <div className="min-h-screen bg-gray-50 flex font-sans text-gray-900">
+        <div className="min-h-screen bg-gray-100 flex font-sans text-gray-900">
             {/* Mobile Overlay */}
             {isMobileMenuOpen && (
                 <div
@@ -72,7 +72,7 @@ const Layout = ({ children }) => {
             {/* Main Content */}
             <div className="flex-1 flex flex-col min-w-0">
                 {/* Mobile Header */}
-                <header className="bg-white shadow-sm lg:hidden h-16 flex items-center px-4 justify-between z-30 sticky top-0">
+                <header className="bg-white shadow-md lg:hidden h-16 flex items-center px-4 justify-between z-20 relative">
                     <button
                         onClick={() => setIsMobileMenuOpen(true)}
                         className="p-2 -ml-2 text-gray-600 hover:bg-gray-100 rounded-md transition-colors"
